@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B0118"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="login"
+            android:id="@+id/loginbtn"
+            android:layout_marginEnd="120dp"
+            android:background="#D8BB9E"
+            android:layout_gravity="center">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sign Up"
+            android:id="@+id/btnsignUp"
+            android:layout_marginStart="120dp"
+            android:background="#D8BB9E"
+            android:layout_gravity="right">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRO FİTNESS AREA"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="#DC143C"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="#000"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@mipmap/fitness" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/vwlistbtn"
+            android:text="View List"
+            android:textSize="20sp"
+            android:background="#0066ff"
+            android:layout_marginHorizontal="25dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Call Me Near"
+            android:id="@+id/callMebtn"
+            android:textSize="20sp"
+            android:background="#87DA9A"
+            android:layout_marginHorizontal="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
