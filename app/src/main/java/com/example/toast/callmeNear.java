@@ -1,4 +1,4 @@
-package com.example.profitnessarea;
+package com.example.toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 

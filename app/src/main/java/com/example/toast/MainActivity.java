@@ -1,4 +1,4 @@
-package com.example.profitnessarea;
+package com.example.toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -44,26 +44,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
             case  R.id.loginbtn :
-                Intent i = new Intent(context, com.example.profitnessarea.login.class);
+                Intent i = new Intent(context,login.class);
                 startActivity(i);
                 break;
 
-            case  R.id.btnsignUp :
-                Intent intent = new Intent(context, com.example.profitnessarea.signUp.class);
+             case  R.id.btnsignUp :
+                Intent intent = new Intent(context,signUp.class);
                 startActivity(intent);
                 break;
 
 
 
-/*
+
             case  R.id.vwlistbtn :
-                Intent c = new Intent(context, com.example.profitnessarea.list.class);
+                Intent c = new Intent(context,list.class);
                 startActivity(c);
 
                 break;
-*/
+
             case  R.id.callMebtn :
-                Intent b = new Intent(context, com.example.profitnessarea.callmeNear.class);
+                Intent b = new Intent(context,callmeNear.class);
                 startActivity(b);
 
                 break;

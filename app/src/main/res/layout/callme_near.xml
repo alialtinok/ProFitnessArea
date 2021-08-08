@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tools:context=".callmeNear">
+    android:orientation="vertical">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Konuma göre veritabanından dinamik olarak çekilecektir. "
+        android:text="asdasd"
         android:textSize="24sp"/>
 
 

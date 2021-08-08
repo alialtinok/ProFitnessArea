@@ -62,22 +62,22 @@
         android:layout_gravity="center">
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:id="@+id/vwlistbtn"
-            android:text="View List"
-            android:textSize="20sp"
-            android:background="#0066ff"
-            android:layout_marginHorizontal="25dp"/>
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/vwlistbtn"
+        android:text="View List"
+        android:textSize="20sp"
+        android:background="#0066ff"
+        android:layout_marginHorizontal="25dp"/>
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:text="Call Me Near"
-            android:id="@+id/callMebtn"
-            android:textSize="20sp"
-            android:background="#87DA9A"
-            android:layout_marginHorizontal="25dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Call Me Near"
+        android:id="@+id/callMebtn"
+        android:textSize="20sp"
+        android:background="#87DA9A"
+        android:layout_marginHorizontal="25dp"/>
 
     </LinearLayout>
 
